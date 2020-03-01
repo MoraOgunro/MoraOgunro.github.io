@@ -1,0 +1,27 @@
+@charset "utf-8";
+// Import a Google Font
+
+// Set your brand colors
+$yellow: #F7B32B;
+$red: #F72C25;
+$beige-light: rgb(228, 228, 228);
+$dark-blue: #100e17;
+$primary: $yellow;
+// Update Bulma's global variables
+
+$grey-light: $beige-light;
+
+$link: $beige-light;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$title-color: $primary;
+$subtitle-color: $beige-light;  
+$primary: $yellow;
+// Update some of Bulma's component variables
+$body-background-color: $dark-blue;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/bulma.sass";

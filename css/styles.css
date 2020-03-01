@@ -1,0 +1,143 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+@media screen and (max-width: 700px){
+    body{
+        background-image: url("/images/homeBackground-mobile.jpg");
+        
+    }
+}
+@media screen and (min-width: 701px){
+    body {
+        background-image: url("/images/homeBackground.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+/*----Scrollbar----*/
+    /* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+    /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  
+    /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(68, 68, 68, 0.479); 
+    border-radius: 25px;
+  }
+  
+    /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+/*----Top Section----*/
+.header {
+    max-width: 700px;
+}
+
+.main-buttons {
+    display: flex !important;
+}
+
+a{
+    display: inline;
+    letter-spacing: 0.2rem;
+}
+a:hover{
+    color: white;
+}
+
+.social-links {
+    background-color: rgba(0, 0, 0, 0.175);
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-links>div>a {
+    color: white;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+.social-links>div>a:hover {
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    color: #F7B32B;
+}
+
+/*----Bottom Section----*/
+.spaced {
+    letter-spacing: 0.3rem;
+}
+
+.sub-body {
+    text-align: left;
+}
+
+.fa-html5 {
+    color: #ffaa27;
+}
+
+.fa-vuejs {
+    color: #3ff180;
+}
+
+.fa-code {
+    color: #2b88ff;
+}
+
+.fa-adobe {
+    color: #fd2626;
+}
+
+/*footer*/
+.hero-foot {
+    background-color: rgba(0, 0, 0, 0.15);
+    height: 3rem;
+    margin-bottom: 0 !important;
+    color: rgb(97, 97, 97);
+    font-size: 0.85rem;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+/*Button Effect*/
+.button_slide {
+    width: fit-content;
+    color: #FFF;
+    border: 2px solid #F7B32B;
+    border-radius: 0px;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #F7B32B;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #F7B32B;
+
+}
+
+#outer {
+    margin: auto;
+}

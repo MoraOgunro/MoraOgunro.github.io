@@ -1,0 +1,21 @@
+html{
+    overflow-y: hidden;
+}
+.level{
+    margin: auto;
+}
+a:hover{
+    color:white;
+}
+img{
+    max-width: 65%;
+    float: left;
+    margin-right: 1rem;
+}
+.portfolio{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.portfolio>a{
+    text-decoration: underline;
+}
