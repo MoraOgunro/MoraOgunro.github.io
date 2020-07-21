@@ -1,20 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-}
-@media screen and (max-width: 700px){
-    body{
-        background-image: url("/images/homeBackground-mobile.jpg");
-        
-    }
-}
-@media screen and (min-width: 701px){
-    body {
-        background-image: url("/images/homeBackground.jpg");
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+    background-color: gainsboro;
 }
 
 
@@ -49,6 +36,7 @@ body{
 }
 
 a{
+    color: #4a4a4a;
     display: inline;
     letter-spacing: 0.2rem;
 }
@@ -57,18 +45,16 @@ a:hover{
 }
 
 .social-links {
-    background-color: rgba(0, 0, 0, 0.175);
-    padding: 1rem 0 1rem 0;
+    padding: 0.5rem 0 0.5rem 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .social-links>div>a {
-    color: white;
     margin-left: 3rem;
     margin-right: 3rem;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
 }
 
 .social-links>div>a:hover {
