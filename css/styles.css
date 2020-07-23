@@ -1,6 +1,6 @@
 html{
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -9,7 +9,8 @@ body{
 
 }
 ::-webkit-scrollbar { 
-    display: none;  /* Safari and Chrome */
+    width: 0px;
+    background: transparent;
 }
 /*----Bulma Override----*/
 .subtitle{
