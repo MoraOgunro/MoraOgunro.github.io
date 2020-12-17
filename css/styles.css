@@ -64,19 +64,7 @@ a:hover{
     text-align: left;
 }
 
-.fa-html5 {
-    color: #288000;
-}
-
-.fa-vuejs {
-    color: #288000;
-}
-
-.fa-code {
-    color: #288000;
-}
-
-.fa-adobe {
+.green-icons>.column>i{
     color: #288000;
 }
 
