@@ -1,3 +1,4 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
 html{
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -33,7 +34,7 @@ a{
     letter-spacing: 0.2rem;
 }
 a:hover{
-    color: white;
+    color: #288000;
 }
 
 .social-links {
@@ -87,4 +88,21 @@ a:hover{
 
 #outer {
     margin: auto;
+}
+
+/* portfolio */
+.portfolio-container{
+    display: inline-flex;
+}
+.portfolio-container > .title{
+    padding-right: 0.5em;
+}
+.portfolio-container>a{
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+}
+.portfolio-container>a:hover {
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    color: #288000;
 }
